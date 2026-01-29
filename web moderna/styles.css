@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+/* nav  */
+
+nav {
+    width: 100%;
+    padding: 0px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(233, 221, 221);
+}
+nav .icon-init{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/* search del nav  */
+
+.search {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 400px; 
+    gap: 10px;
+    padding: 8px 10px;
+    border-radius: 8px ;
+    
+}
+
+.search input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+.search i {
+    padding: 6px;
+    border-radius: 5px;
+}
+
+
+
