@@ -20,3 +20,42 @@ querySelector() = Retorna el primer elemento que coincide con un selector CSS.
             <meta name="author" content="Aldair Zambrano">
             <!-- Link  -->
             <link rel="stylesheet" href="./index.css">
+
+            <!-- uso del gap  -->
+
+            gap :  es una propiedad de CSS que define el espacio ENTRE los elementos hijos cuando usas Flexbox o Grid.
+
+            ejemplo
+            .container {
+            display: flex;
+            gap: 20px;
+            }
+
+            <div class="container">
+            <div>Uno</div>
+            <div>Dos</div>
+            <div>Tres</div>
+            </div>
+
+            uso del flex
+
+            el flex nos sirve para controlar el tamaño de los hijos
+           
+           flex-grow
+           ocupa los espacios disponibles
+            flex-grow: 1
+
+            errores que cometi
+
+            el uso del margin left top y position para el ajuste de la posicion de los elementos del nav
+            
+            resumen 
+            display: flex activa Flexbox
+
+            El contenedor controla todo
+
+            justify-content y align-items alinean
+
+            gap separa
+
+            flex: 1 reparte espacio
