@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: rgb(242, 246, 245);
 }
 
 /* nav  */
@@ -11,11 +12,19 @@ nav {
     display: flex;
     justify-content: space-between;
     border: 2px solid rgb(233, 221, 221);
+    background-color: white;
 }
 nav .icon-init{
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.icon-init h3{
+    font-family: sans-serif;
+}
+.icon-init i {
+    color:#0f5bff;
 }
 /* search del nav  */
 
@@ -27,20 +36,126 @@ nav .icon-init{
     max-width: 400px; 
     gap: 10px;
     padding: 8px 10px;
-    border-radius: 8px ;
-    
+    border-radius: 8px;
+    background-color: rgb(242, 244, 249);
+}
+
+.search input::placeholder{
+    color: rgb(48, 86, 162);
+    font-weight: 530;
 }
 
 .search input {
     flex: 1;
     border: none;
     outline: none;
+    background-color: rgb(242, 244, 249);
 }
 
 .search i {
     padding: 6px;
     border-radius: 5px;
+    color: rgb(48, 86, 162);
+}
+
+/* header */
+header{
+    background-color: rgb(242, 246, 245);
 }
 
 
+.container-today {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
 
+.text-today {
+    flex-direction: column;
+    gap: 6px;
+}
+
+.text-today span {
+    color: #0f5bff;
+    font-weight: bold;
+}
+
+.text-today span i{
+    padding-right: 10px;
+}
+
+.text-today h1{
+    font-size: 2.6rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.text-today p {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgba(71, 70, 68, 0.6);
+}
+
+.container-today button {
+    background-color: #0f5bff;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* header ul  */
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 16px 24px;
+    list-style: none;
+    
+}
+
+header ul li button {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background: transparent;
+}
+
+.button-list-1{
+    color: rgb(224, 22, 22);
+    border: 1px solid rgb(224, 22, 22);
+    background-color: rgb(246, 219, 219);
+}
+.button-list-2{
+    color: rgb(186, 105, 24);
+    border: 1px solid rgb(253, 129, 34);
+    background-color: rgb(248, 247, 181);;
+}
+.button-list-3{
+    color: #0f5bff;
+    border: 1px solid blue;
+    background-color: #e0e7f6;
+}
+.button-list-4{
+    border: none;
+    color: #4a6195;
+    background-color: #dee5f3;
+}
+
+/* hr */
+
+hr {
+    background-color: rgb(242, 246, 245);;
+}
+
+main {
+    background-color: rgb(242, 246, 245);
+}
