@@ -59,9 +59,6 @@ nav .icon-init{
 }
 
 /* header */
-header{
-    background-color: rgb(242, 246, 245);
-}
 
 
 .container-today {
@@ -70,6 +67,8 @@ header{
     align-items: center;
     padding: 40px;
 }
+
+
 
 .text-today {
     flex-direction: column;
@@ -102,9 +101,15 @@ header{
     color: white;
     padding: 15px 40px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     font-family: sans-serif;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.container-today button:hover{
+        box-shadow: 5px 5px 25px #3370db;
+        transition: 500ms;
 }
 
 /* header ul  */
@@ -152,10 +157,61 @@ header ul li button {
 
 /* hr */
 
-hr {
-    background-color: rgb(242, 246, 245);;
+.hr {
+    width: 90%;
 }
 
+/* main  */
+
 main {
-    background-color: rgb(242, 246, 245);
+    width: 90%;
+    margin: 0 auto;
+    padding: 24px;
+    font-family: sans-serif;
+    
 }
+.container-tarea input{
+    width: 3%;
+}
+.container-tarea-finish input{
+    width: 3%;
+}
+
+.container-tarea {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-bottom: none;
+    background-color: white;
+    border-radius: 4px;
+}
+.container-tarea-finish{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.container-main-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.container-main-p p {
+    font-weight: bold;
+}
+.span-finish{
+    padding: 5px 10px;
+}
+
+.container-span .span{
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-left: none;
+    border-top: none;
+    border-bottom:none;
+}
+
