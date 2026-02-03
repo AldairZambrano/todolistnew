@@ -3,6 +3,10 @@ body{
     background-color: rgb(242, 246, 245);
 }
 
+.container-principal{
+    width: 80%;
+    margin: 0 auto;
+    }
 /* nav  */
 
 nav {
@@ -11,8 +15,11 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    z-index: 1000;
+    position: fixed;
     border: 2px solid rgb(233, 221, 221);
     background-color: white;
+ 
 }
 nav .icon-init{
     display: flex;
@@ -117,8 +124,8 @@ nav .icon-init{
 header ul {
     display: flex;
     align-items: center;
-    gap: 30px;
-    padding: 16px 24px;
+    gap: 40px;
+    padding: 16px 55px;
     list-style: none;
     
 }
@@ -215,3 +222,68 @@ main {
     border-bottom:none;
 }
 
+/* boton agregar */
+
+.button-agregar {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px dashed gray;
+    color: gray;
+    background-color: #e4ecf8;
+}
+
+.button-agregar:hover{
+    cursor: pointer;
+    border: 2px dashed blue;
+    color: blue;
+    transition: 150ms;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 90%;
+    padding: 30px;
+    font-family: sans-serif;
+    
+}
+
+footer article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 0px 50px 15px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+footer article div {
+    font-size:10px;
+}
+footer article div span {
+    color: gray;
+}
+footer article i {
+    color: blue;
+    background-color: #e4ecf8;
+    padding: 10px;
+    border-radius:5px;
+}
+
+.container-footer-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
